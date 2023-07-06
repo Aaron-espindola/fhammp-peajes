@@ -1,0 +1,145 @@
+body {
+  background-image: url("./Imagenes/cabinas/LOGOFHAMP.png");
+  background-size: cover; 
+  background-repeat: repeat; 
+}
+.botones {
+    display: inline-block;
+    overflow-x: hidden;
+    
+   
+  
+  }
+  .botones button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100px;
+    background-color: #aaabbc;
+   border-radius: 10px;
+    
+  }
+  
+  
+  .botones button:active,
+  .botones button:focus {
+    background-color: #373f47; 
+    color: #fff;
+  }
+  
+  .tipovehiculo {
+    display: inline-block;
+    overflow-x: hidden;
+   
+  }
+  .tipovehiculo button {
+    margin-right: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 100px;
+    
+  }
+  
+  .tipovehiculo button::backdrop,
+  .tipovehiculo button:focus {
+    background-color: green; 
+    color: #fff;
+  }
+  .text_ejes{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+  
+  }
+  .BotonesInferiores {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .boton{
+    width:auto;
+    height: auto;
+    background-color:transparent ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+  }
+  .boton button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#F6BB41 ;
+  }
+  .boton spaninferior {
+    margin-top: 10px;
+  }
+ .footer-header {
+  height: 70px;
+ }
+ .cantidadtexto {
+  color: #000000; 
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  background-color: #aaabbc; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+ }
+ .cantidadtexto:hover {
+  background-color: #373f47; 
+  
+}
+.ejes {
+  padding: 5px; 
+  font-size: 16px; 
+  font-weight: bold;
+  border-radius: 5px; 
+  background-color: #c3c9e9; 
+  outline: none; 
+}
+.ejes:focus {
+  border-color: #ffffff; 
+  box-shadow: 0 0 5px white; 
+}
+.footer-header {
+  background-color:rgb(83, 83, 83) ;
+}
+.texto
+{
+  margin-top: 50px;
+  color: #ffffff;
+}
+.Headerinferior {
+ background-color: #41566b;
+}
+.spanprecios{
+  color: white;
+  font-weight: bold;
+}
+.spaninferior{
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  width: 400px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
